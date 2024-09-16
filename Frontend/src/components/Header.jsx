@@ -35,6 +35,11 @@ function Header() {
               About
             </li>
           </Link>
+          <Link to='/sign-in'>
+            <li className='hidden sm:inline text-slate-700 hover:underline'>
+              Sign In
+            </li>
+          </Link>
         </ul>
       </div>
     </header>
